@@ -1,7 +1,7 @@
 .jun-meter {
     position: relative;
-    width: 640px;
-    height: 640px;
+    width: 700px;
+    height: 700px;
     background-image: url("../img/z.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -109,8 +109,8 @@
 
 .jun-human{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     left: 270px;
     top: 280px;
     background-image: url("../img/human.gif");
