@@ -1,0 +1,97 @@
+<html>
+<head>
+    <embed src="images/xiyouji.mp3" autostart="true" loop="true" width="0" height="0"/>
+        <meta charset='UTF-8'>
+        <title>西游记</title>
+        <meta name='Keywords' content=''>
+        <meta name='Description' content=''>
+        <style type="text/css">
+
+            body{
+                margin: 0px;
+                background-image: url('images/bg.jpg');
+                animation: body 1200s infinite;
+            }
+            .list{
+                width: 800px;
+                height: 150px;
+                margin: auto;
+                margin-top: 400px;
+
+            }
+            .list div{
+                float :left;
+                width: 190px;
+                height: 150px;
+            }
+            .list .list-1{/* 后代选择器 */
+
+                background-image: url('images/1.png');
+                animation: run 1s steps(8) infinite;
+                z-index: 1;
+            }
+            .list .list-2{/* 后代选择器 */
+
+                background-image: url('images/2.png');
+                animation: run 1s steps(8) infinite;
+                z-index: 1;
+
+            }
+            .list .list-3{/* 后代选择器 */
+
+                background-image: url('images/3.png');
+                animation: list-3 1s steps(8) infinite;
+                z-index: 1;
+            }
+            .list .list-4{/* 后代选择器 */
+
+                background-image: url('images/4.png');
+                animation: list-4 1s steps(8) infinite;
+                z-index: 1;
+            }
+            @keyframes body{
+                from{
+                    background-position: 0 0;
+                }
+                to{
+                    background-position: 108000px 0;
+                }
+            }
+            @keyframes list-3{
+                from{
+                    background-position: 0 0;
+                }
+                to{
+                    background-position: -1360px 0;
+                }
+            }
+            @keyframes list-4{
+                from{
+                    background-position: 0 0;
+                }
+                to{
+                    background-position: -1680px 0;
+                }
+            }
+            @keyframes run{
+                from{
+                    background-position: 0 0;
+                }
+                to{
+                    background-position: -1600px 0;
+                }
+            }
+
+        </style>
+
+        </head>
+<body>
+<div class='list'>
+    <div class='list-1'></div>
+    <div class='list-2'></div>
+    <div class='list-3'></div>
+    <div class='list-4'></div>
+</div>
+
+</body>
+</html>
