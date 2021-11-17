@@ -2,7 +2,7 @@
     position: relative;
     width: 640px;
     height: 640px;
-    background-image: url("../img/ring.svg");
+    background-image: url("../img/z.png");
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -109,9 +109,9 @@
 
 .jun-human{
     position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 250px;
+    width: 100px;
+    height: 100px;
+    left: 270px;
     top: 280px;
     background-image: url("../img/human.gif");
     background-repeat: no-repeat;
